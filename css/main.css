@@ -1,0 +1,55 @@
+.section {
+  background-image: url(../img/pizza.png);
+  background-repeat: no-repeat;
+  background-position: bottom right calc(50% - 450px);
+  background-size: contain;
+}
+
+.left-div {
+  border-right: 2px solid black;
+}
+
+.js-select {
+  width: 300px;
+}
+
+.js-radios {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+}
+
+.js-radios label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.js-top-list,
+.js-adds-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.hr-line {
+  width: 100%;
+  height: 2px;
+}
+
+.pleft {
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .section {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-div {
+    border-right: none;
+  }
+}

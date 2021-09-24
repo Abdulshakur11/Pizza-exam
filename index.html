@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitsa yetkazib berish</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <section class="section pb-5">
+    <div class="container mt-4">
+
+      <h2 class="text-center">Pitsa buyurtma qilish</h2>
+
+      <div class="row">
+
+        <!-- Left side -->
+        <div class="col col-12 col-md-8 col-lg-4 mt-4 left-div">
+          <form class="js-form" action="https://echo.htmlacademy.ru" id="form-id" method="POST">
+
+            <fieldset>
+              <legend class="fw-bold mb-2">Noni qanday bo`lsin?</legend>
+              <select class="js-select form-select" aria-label="Default select example" name="Bread-thinkness">
+
+              </select>
+            </fieldset>
+
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Kattaligi</legend>
+              <div class="js-radios">
+
+              </div>
+            </fieldset>
+
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Ustiga nima solaylik?</legend>
+              <div class="js-checkboxes row pleft">
+
+              </div>
+
+            </fieldset>
+
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Qo`shimchalar</legend>
+              <div class="js-checkboxes-adds row pleft">
+
+              </div>
+
+            </fieldset>
+
+
+          </form>
+        </div> <!-- Left side -->
+
+        <div class="d-md-none mt-5 bg-dark hr-line"></div>
+
+        <!-- Right side -->
+        <div class="col col-12 col-md-4 col-lg-4 mt-4 mt-md-4">
+          <p class="fw-bold">Non: <span class="js-bread-type fw-normal"></span></p>
+          <p class="fw-bold">Kattaligi: <span class="js-bread-size fw-normal">25sm</span></p>
+          <p class="fw-bold mb-0">Ustida:</p>
+          <ul class="js-top-list">
+
+          </ul>
+          <p class="fw-bold mb-0">Qo`shimcha:</p>
+          <ul class="js-adds-list">
+
+          </ul>
+
+          <button class="btn btn-danger" type="submit" form="form-id">Buyurtma berish</button>
+        </div> <!-- Right side -->
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="js/my.js"></script>
+</body>
+
+</html>
